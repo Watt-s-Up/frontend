@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM node:18-alpine AS build
+FROM node:18.20-bookworm AS build
 ARG BUILDSTAGE
 WORKDIR /usr/src/app
 COPY package.json  ./
@@ -8,6 +8,6 @@ COPY . .
 RUN if [[ -z "${BUILDSTAGE}" ]] ; then  npm run build ; else  npm run ${BUILDSTAGE} ; fi
 
 ### STAGE 2: Run ###
-FROM nginx:1.19.6-alpine
+FROM nginx:1.26-bookworm-otel
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
 RUN chown nginx /usr/share/nginx/html -R
