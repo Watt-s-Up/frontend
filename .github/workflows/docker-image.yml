@@ -9,7 +9,8 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+
     permissions:
       packages: write
       contents: read
