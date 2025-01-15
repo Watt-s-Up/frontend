@@ -11,7 +11,7 @@ export class EnergyDataService {
 
   getEnergyData(): Observable<EnergyEntry[]> {
     return this.http
-      .get('http://pi.local:3000/api/v1/energy-data')
+      .get('http://localhost:3000/api/v1/energy-data')
       .pipe<EnergyEntry[]>(
         map<any, EnergyEntry[]>((res) => {
           if (res['success']) {
