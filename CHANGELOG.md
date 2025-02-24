@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/Watt-s-Up/Watt-s-Up-Angular-/compare/v1.0.0...v1.1.0) (2025-02-21)
+
+
+### Features
+
+* poll data once every minute ([44463fd](https://github.com/Watt-s-Up/Watt-s-Up-Angular-/commit/44463fdf0ae6e1f357dc0a6042587dcd010f6dad))
+
+
+### Bug Fixes
+
+* bundle budgets ([73c4f6e](https://github.com/Watt-s-Up/Watt-s-Up-Angular-/commit/73c4f6e8fc52d96d9adf13537a1831b2978e57f3))
+* just shoot to localhost ([c8bba22](https://github.com/Watt-s-Up/Watt-s-Up-Angular-/commit/c8bba2295f6e538886efb8c186f1a992538cc1ff))
+* lock file ([56e9b26](https://github.com/Watt-s-Up/Watt-s-Up-Angular-/commit/56e9b26f103cef9b73df9140936715e6838bf3d8))
+* node type ([bc76cfa](https://github.com/Watt-s-Up/Watt-s-Up-Angular-/commit/bc76cfa05e3fee15bd3c2ceb0c43079cf1d9b176))
+
 ## 1.0.0 (2024-09-15)
 
 
